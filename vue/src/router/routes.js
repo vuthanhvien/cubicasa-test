@@ -122,10 +122,10 @@ const homeRoutes = [
     name: 'Home',
     header: '',
     icon: 'home',
-    badge: {
-      text: '1',
-      varient: 'success',
-    },
+    // badge: {
+    //   text: '1',
+    //   varient: 'success',
+    // },
     component: () => lazyLoadView(import('@views/pages/dashboard/dashboard')),
     meta: { authRequired: true },
     props: (route) => ({ user: store.state.auth.currentUser || {} }),
