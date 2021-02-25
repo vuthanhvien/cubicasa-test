@@ -53,8 +53,7 @@ export default {
     }
 
     const activeClass = this.mode === 'horizontal' ? 'active' : 'mm-active'
-    const dropdownActiveClass =
-      this.mode === 'horizontal' ? 'active' : 'mm-show'
+    const dropdownActiveClass = this.mode === 'horizontal' ? 'active' : 'mm-show'
 
     if (matchingMenuItem) {
       matchingMenuItem.classList.add('active')
